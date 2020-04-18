@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using NetExtensions;
 
-namespace Infra.SqlServer.GetNewId
+namespace NetExtensions
 {
     public static class GetNewIdExtension
     {

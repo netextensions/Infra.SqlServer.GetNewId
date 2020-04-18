@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Infra.SqlServer.GetNewId
+namespace NetExtensions
 {
 
     public class BusinessIdContext : DbContext

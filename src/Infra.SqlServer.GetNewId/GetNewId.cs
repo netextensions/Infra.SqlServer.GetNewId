@@ -4,9 +4,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using NetExtensions;
 
-namespace Infra.SqlServer.GetNewId
+namespace NetExtensions
 {
     public class GetNewId : ContextHandler<BusinessIdContext> 
     {

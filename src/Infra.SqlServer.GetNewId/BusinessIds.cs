@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infra.SqlServer.GetNewId
+namespace NetExtensions
 {
     public class BusinessIds
     {

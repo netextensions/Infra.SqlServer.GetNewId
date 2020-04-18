@@ -11,7 +11,7 @@
     <RepositoryUrl>https://github.com/netextensions/Infra.SqlServer.GetNewId</RepositoryUrl>
     <PackageTags>Infra.SqlServer.GetNewId,provide new business id, such as pay id, customer id etc, .net core</PackageTags>
     <PackageId>NetExtensions.Infra.SqlServer.GetNewId</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Authors>netextensions.io</Authors>
     <PackageIcon>icon.png</PackageIcon>
