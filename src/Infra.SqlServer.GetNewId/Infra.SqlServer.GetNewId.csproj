@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>NetExtensions</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>NetExtensions Infra.SqlServer.GetNewId</Title>
+    <Description>Infra.SqlServer.GetNewId</Description>
+    <PackageProjectUrl>https://github.com/netextensions/Infra.SqlServer.GetNewId</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/netextensions/Infra.SqlServer.GetNewId</RepositoryUrl>
+    <PackageTags>Infra.SqlServer.GetNewId,provide new business id, such as pay id, customer id etc, .net core</PackageTags>
+    <PackageId>NetExtensions.Infra.SqlServer.GetNewId</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Authors>netextensions.io</Authors>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="icon.png" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NetExtensions.Extensions.SqlServer" Version="1.0.2" />
+    <PackageReference Include="NetExtensions.Infra.Repository" Version="1.0.9" />
+  </ItemGroup>
+
+</Project>
